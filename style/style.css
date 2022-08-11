@@ -1,0 +1,54 @@
+body{
+	background-image: url("../img/bg4.gif");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#score{
+	position:relative;
+	width:100%;
+	height:30%;
+	float:right;
+}
+
+#game{
+	position:relative;
+	width:100%;
+	height:70%;
+	float:left;
+	
+}
+
+#game_stop, #Authors, #Options{
+	background-image: url("../img/bg5.gif");
+	background-repeat: no-repeat;
+	background-size: 700px 700px;
+	width:700px;
+	height:700px;
+}
+
+#Authors{
+	padding-top:7%;
+}
+
+#game_start, #Authors, #Options{
+	display: none;
+}
+
+#game_stop_start{
+	padding-top:2%;
+}
+
+button{
+	height:70%;
+	width:80%;
+	decoration:none;
+	background:none;
+}
+
+#back{
+	height:20%;
+	width:80%;
+	decoration:none;
+	background:none;
+}

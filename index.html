@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <title>Gra rybka</title>
+		<meta name="author" content="Damian Jamroży">
+		<link rel="stylesheet" href="style/style.css">
+		
+    </head>
+     <body>
+		<div id="score">
+		<center>
+			<h1><strong>GRA W RYBKĘ: </strong></h1>
+		</center>
+		</div>
+	 
+		<div id="game"><center>
+		
+		<div id="game_start">
+         <canvas id="tu_rysuj" width="700" height="700" style="border: 1px solid black; z-index="1">
+            Niestety Twoja przeglądarka nie obsługuje gier HTML 5. Zaktualizuj przeglądarkę internetową.
+        </canvas>
+		</div>
+		
+		<div id="game_stop">
+			<div id="game_stop_start" style="height:25%">
+				<button width="550px" onclick="showFirst(), run()">Rozpocznij grę</button><br>
+			</div>
+			<div id="game_stop_authors" style="height:25%">
+				<button width="550px" onclick="showSec()">Autorzy</button>
+			</div>
+			<div id="game_stop_options" style="height:25%">
+				<button width="550px" onclick="showTh()">Sterowanie</button>
+			</div>
+			<div id="game_stop_end" style="height:25%">
+				<button width="550px" onclick="window.close()">Wyjdź</button>
+			</div>
+			
+		</div>
+		
+		<div id="Authors">
+			<font size="20%">Autorami tej pięknej mini gry jest:
+				<br><br>
+				 Damian Jamroży
+			</font><br><br><br><br><br><br>
+			<button id="back" onClick="showFor()">Wróć</button>
+		</div>
+		
+		<div id="Options">
+			<font size="20%">Sterowanie:
+				<br><br><font size="5%">
+				Swoim bohaterem, sterować możesz za pośrednictwem strzałek na klawiaturze. (Strzałka w górę oraz w dół)<br></font>
+				<img src="img/arrows.png" width="20%" height="20%">
+				 
+			</font><br><br><br><br><br><br>
+			<button id="back" onClick="showFor()">Wróć</button>
+		</div>
+		
+		<br>
+		Autorzy: Damian Jamroży.
+		</center>
+		</div>
+		
+    </body>
+	<script type="text/javascript" src="js/script.js" defer></script> 
+</html>
